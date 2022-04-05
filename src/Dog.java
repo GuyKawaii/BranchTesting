@@ -10,5 +10,10 @@ public class Dog extends Animal {
     return false;
   }
   
+  @Override
+  public void mood() {
+    System.out.println("happy");
+  }
+  
   
 }

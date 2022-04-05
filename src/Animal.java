@@ -5,4 +5,6 @@ public abstract class Animal {
   
   public abstract boolean eatFood();
   
+  public abstract void mood();
+  
 }
