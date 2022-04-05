@@ -11,8 +11,9 @@ public class Cat extends Animal{
   }
   
   @Override
-  public void mood() {
+  public boolean mood() {
     System.out.println("Relaxed");
+    return true;
   }
   
   
