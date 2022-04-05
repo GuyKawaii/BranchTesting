@@ -4,4 +4,11 @@ public class Cat extends Animal{
   public void makeSound() {
     System.out.println("Miao!");
   }
+  
+  @Override
+  public boolean eatFood() {
+    return false;
+  }
+  
+  
 }
